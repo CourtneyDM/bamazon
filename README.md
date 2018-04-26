@@ -121,14 +121,13 @@ Exits the application
 
 ### Resources
 
-* NodeJS
-   [NodeJS](https://nodejs.org/en/)
+* [NodeJS](https://nodejs.org/en/)
 
-* NodeJS Packages/Dependencies
-   [Chalk](https://www.npmjs.com/package/chalk)  
-   [CLI-Table](https://www.npmjs.com/package/cli-table)  
-   [Inquirer](https://www.npmjs.com/package/inquirer)  
-   [MySQL](https://www.npmjs.com/package/mysql)  
+* NodeJS Packages/Dependencies  
+   [Chalk](https://www.npmjs.com/package/chalk)  _"Terminal string styling done right"_
+   [CLI-Table](https://www.npmjs.com/package/cli-table)  _"This utility allows you to render unicode-aided tables on the command line from your node.js scripts"_
+   [Inquirer](https://www.npmjs.com/package/inquirer)  _"A collection of common interactive command line user interfaces"_
+   [MySQL](https://www.npmjs.com/package/mysql)  _"This is a node.js driver for mysql. It is written in JavaScript, does not require compiling, and is 100% MIT licensed."_
 
 
 ## Closing Remarks
