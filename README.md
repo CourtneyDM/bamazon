@@ -28,7 +28,7 @@ Initialize your folder using _npm init_ and install the dependencies using _npm 
 
 ## Functionality
 
-Below you will find descriptions, along with screenshots, of how this application works.
+Below you will find descriptions and screenshots of how this application works, based on each user experience.
 
 ### Customer Experience
 
