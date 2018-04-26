@@ -121,7 +121,7 @@ Exits the application
 
 ### Resources
 
-* [NodeJS](https://nodejs.org/en/): _a JavaScript runtime built on Chrome's V8 JavaScript engine_
+* [NodeJS](https://nodejs.org/en/): a JavaScript runtime built on Chrome's V8 JavaScript engine
 
 __NodeJS Packages/Dependencies__  
 * [Chalk](https://www.npmjs.com/package/chalk): _"Terminal string styling done right"_  
