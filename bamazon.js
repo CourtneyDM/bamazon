@@ -255,10 +255,16 @@ function executeQuery(sqlQuery, table) {
 
             if (count === 3) {
                 inquirer.prompt(prompts.update).then(answer => {
-                    productID = answer.productID;
-                    quantity = answer.quantity;
-                    const managerUpdateQuery = `UPDATE products SET stock_quantity = stock_quantity + ${quantity} WHERE item_id = ${productID}`;
-                    updateInventory(managerUpdateQuery);
+                    if (answer.productID > inventoryCount || answer.productID < 0) {
+                        console.log(chalk.red("\n\nYou have made an invalid selection. Please try again"));
+                        return createTable();
+                    }
+                    else {
+                        productID = answer.productID;
+                        quantity = answer.quantity;
+                        const managerUpdateQuery = `UPDATE products SET stock_quantity = stock_quantity + ${quantity} WHERE item_id = ${productID}`;
+                        return updateInventory(managerUpdateQuery);
+                    }
                 });
             }
         }
