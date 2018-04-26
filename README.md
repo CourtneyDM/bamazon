@@ -4,7 +4,7 @@ A NodeJS Command-Line Shopping Experience
 
 ## Overview
 
-Bamazon is a command-line NodeJS application that accepts interaction from a _customer_, _manager_ or _supervisor_. Each user experience is different based on which application is chosen - _bamazonCustomer.js_, _bamazonManager.js_ or _bamazonSupervisor.js._ The back-end uses MySQL; if you are unfamiliar with setting up or using MySQL, please visit the [_Getting Started with MySQL Documention here._](https://dev.mysql.com/doc/mysql-getting-started/en/)
+Bamazon is a command-line NodeJS application that accepts interaction from a _customer_, _manager_ or _supervisor_. Each user experience is different based on which application is chosen - _bamazonCustomer.js_, _bamazonManager.js_ or _bamazonSupervisor.js._ The back-end uses MySQL; if you are unfamiliar with setting up or using MySQL, please visit their [_Getting Started with MySQL Documention._](https://dev.mysql.com/doc/mysql-getting-started/en/)
 
 ## Getting Started
 
@@ -28,6 +28,8 @@ Initialize your folder using _npm init_ and install the dependencies using _npm 
 
 ## Functionality
 
+Below you will find descriptions and screenshots of how this application works, based on each user experience.
+
 ### Customer Experience
 
 ![alt text](https://github.com/CourtneyDM/bamazon/blob/master/screenshots/customer-02.jpeg?raw=true "Customer - Purchase Screen")
@@ -36,7 +38,9 @@ Upon launch, the _customer_ is greeted with a welcome message, as well as a tabl
 
 * __NOTE__: if the _customer's_ quantity cannot be fulfilled or an invalid ID was provided, a message will appear prompting the _customer_ to try their selection again.
 
-### Manager Portal
+---
+
+### Manager Experience
 
 ![alt text](https://github.com/CourtneyDM/bamazon/blob/master/screenshots/manager-03.jpeg?raw=true "Manager - Inventory Views")
 
@@ -78,8 +82,9 @@ The _manager_ has the ability to add new product to the inventory by selecting t
 
 ![alt text](https://github.com/CourtneyDM/bamazon/blob/master/screenshots/manager-07.jpeg?raw=true "Manager - Add Product")
 
+---
 
-### Supervisor Portal
+### Supervisor Experience
 
 ![alt text](https://github.com/CourtneyDM/bamazon/blob/master/screenshots/supervisor-01.jpeg?raw=true "Supervisor - Portal Home")
 
@@ -119,6 +124,12 @@ The _supervisor_ has the ability to create a new department using this option. T
 
 Exits the application
 
+---  
+
+## Closing Remarks
+
+This was my first attempt at using any of the NodeJS packages extensively, and by doing so it allowed me to better understand how Inquirer works, massage data using MySQL statements and Javascript, as well as creating tables to display nicely to the console. Having said that, I am by no means an expert at any of the packages used, but I am always willing to answer questions as well as accept positive feedback (constructive criticism). Until next time - enjoy!
+
 ### Resources
 
 * [NodeJS](https://nodejs.org/en/): a JavaScript runtime built on Chrome's V8 JavaScript engine
@@ -127,11 +138,7 @@ __NodeJS Packages/Dependencies__
 * [Chalk](https://www.npmjs.com/package/chalk): _"Terminal string styling done right"_  
 * [CLI-Table](https://www.npmjs.com/package/cli-table): _"This utility allows you to render unicode-aided tables on the command line from your node.js scripts"_  
 * [Inquirer](https://www.npmjs.com/package/inquirer): _"A collection of common interactive command line user interfaces"_  
-* [MySQL](https://www.npmjs.com/package/mysql): _"This is a node.js driver for mysql. It is written in JavaScript, does not require compiling, and is 100% MIT licensed."_  
-
-## Closing Remarks
-
-This was my first attempt at using any of the NodeJS packages extensively, and by doing so it allowed me to better understand how Inquirer works, massage data using MySQL statements and Javascript, as well as creating tables to display nicely to the console. Having said that, I am by no means an expert at any of the packages used, but I am always willing to answer questions as well as accept positive feedback (constructive criticism). Until next time - enjoy!
+* [MySQL](https://www.npmjs.com/package/mysql): _"This is a node.js driver for mysql. It is written in JavaScript, does not require compiling, and is 100% MIT licensed."_
 
 ---
 
