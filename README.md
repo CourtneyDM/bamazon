@@ -94,6 +94,22 @@ The _supervisor_ has the ability to create a new department using this option. T
 
 Exits the application
 
+### Resources
+
+* NodeJS
+   [NodeJS](https://nodejs.org/en/)
+
+* NodeJS Packages/Dependencies
+   [Chalk](https://www.npmjs.com/package/chalk)
+   [CLI-Table](https://www.npmjs.com/package/cli-table)
+   [Inquirer](https://www.npmjs.com/package/inquirer)
+   [MySQL](https://www.npmjs.com/package/mysql)
+
+
+## Closing Remarks
+
+This was my first attempt at using any of the NodeJS packages extensively, and by doing so it allowed me to better understand how Inquirer works and ways to manipulate user input. Having said that, I am by no means an expert at any of the packages used, but I am always willing to field questions and accept positive feedback (constructive criticism). Until next time - enjoy!
+
 #### Copyright
 
 <p>Courtney Montgomery &copy 2018</p>
