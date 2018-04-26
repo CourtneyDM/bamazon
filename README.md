@@ -30,13 +30,15 @@ Initialize your folder using _npm init_ and install the dependencies using _npm 
 
 ### Customer Experience
 
+![alt text](https://github.com/CourtneyDM/bamazon/blob/master/screenshots/customer-02.jpeg?raw=true "Customer - Purchase Screen")
+
 Upon launch, the _customer_ is greeted with a welcome message, as well as a table containing the items currently in the Bamazon inventory. The _customer_ is asked to input the Item ID of the product they would like to purchase. Once the product has been selected, the _customer_ is then asked to provide a number for the quantity they would like to purchase. Once the _customer_ has finished their inputs, a table appears containing the details of their order - Product Name, Quantity, Price. Once their selection has been made, the _customer_ has the option to select another item or end their shopping experience.
 
 * __NOTE__: if the _customer's_ quantity cannot be fulfilled or an invalid ID was provided, a message will appear prompting the _customer_ to try their selection again.
 
-![alt text](https://github.com/CourtneyDM/bamazon/blob/master/screenshots/customer-02.jpeg?raw=true "Customer Screen 01")
-
 ### Manager Portal
+
+![alt text](https://github.com/CourtneyDM/bamazon/blob/master/screenshots/manager-03.jpeg?raw=true "Manager - Inventory Views")
 
 The _Manager Portal_ provides an opportunity for the _manager_ to perform the following tasks:
 
@@ -62,13 +64,25 @@ Selecting this option provides the _manager_ with a table containing details of 
 
 #### Update Inventory
 
+![alt text](https://github.com/CourtneyDM/bamazon/blob/master/screenshots/manager-04.jpeg?raw=true "Manager - Inventory Update")
+
+
 Here, the _manager_ is able to update the quantity for any item currently in inventory. The inventory table is generated, allowing the _manager_ to identify which product they want to modify by selecting that product's ID. Once they have inputed the number of items to add, they table displays the inventory with the new changes. __NOTE__: the _manager_ has the ability to input negative numbers in the event that quantity is to be removed from the inventory.
 
 #### Add New Products
 
+![alt text](https://github.com/CourtneyDM/bamazon/blob/master/screenshots/manager-05.jpeg?raw=true "Manager - Add New Product")
+
+
 The _manager_ has the ability to add new product to the inventory by selecting this option. The _manager_ will be asked to input the name of the product, select the department the product belongs to (a pre-defined list), how many to add to inventory and the price in U.S. dollars (no currency symbols). Once completed, the table is regenerated with the newly added product and its details.
 
+![alt text](https://github.com/CourtneyDM/bamazon/blob/master/screenshots/manager-07.jpeg?raw=true "Manager - Add Product")
+
+
 ### Supervisor Portal
+
+![alt text](https://github.com/CourtneyDM/bamazon/blob/master/screenshots/supervisor-01.jpeg?raw=true "Supervisor - Portal Home")
+
 
 The _Supervisor Portal_ launches with the following options:
 
@@ -79,18 +93,27 @@ The _Supervisor Portal_ launches with the following options:
 
 #### View Product Sales by Department
 
+![alt text](https://github.com/CourtneyDM/bamazon/blob/master/screenshots/supervisor-02.jpeg?raw=true "Supervisor - View Sales")
+
+
 This options allows the _supervisor_ to see a breakdown of sales by departemnt. The data displayed is based on items that are in the __current inventory__. Some details the  _supervisor_ can see are: Department name and ID, Overhead Cost, sum of the Product Sales and Total Profit.
 
 #### View Departments
+
+![alt text](https://github.com/CourtneyDM/bamazon/blob/master/screenshots/supervisor-03.jpeg?raw=true "Supervisor - View Departments")
 
 The _supervisor_ can see each department and their overhead cost from this screen.
 
 #### Create New Department
 
+![alt text](https://github.com/CourtneyDM/bamazon/blob/master/screenshots/supervisor-04.jpeg?raw=true "Supervisor - Create New Department")
+
 The _supervisor_ has the ability to create a new department using this option. The required information are:
 
 * Department Name - the name for the new department
 * Overhead Cost - the general cost or expenses to maintain new department
+
+![alt text](https://github.com/CourtneyDM/bamazon/blob/master/screenshots/supervisor-05.jpeg?raw=true "Supervisor - List New Department")
 
 #### Exit
 
