@@ -34,7 +34,7 @@ Upon launch, the _customer_ is greeted with a welcome message, as well as a tabl
 
 * __NOTE__: if the _customer's_ quantity cannot be fulfilled or an invalid ID was provided, a message will appear prompting the _customer_ to try their selection again.
 
-![alt text](https://github.com/CourtneyDM/bamazon/screenshots/customer-01.jpeg "Customer Screen 01")
+![alt text](https://github.com/CourtneyDM/bamazon/blob/master/screenshots/customer-01.jpeg?raw=true "Customer Screen 01")
 
 ### Manager Portal
 
