@@ -1,6 +1,6 @@
 # Bamazon - Shopping in DOS-Style
 
-A NodeJS Command-Line Application
+A NodeJS Command-Line Shopping Experience
 
 ## Overview
 
@@ -23,6 +23,14 @@ In order to interact with the Bamazon database, one must first execute the __bam
 Initialize your folder using _npm init_ and install the dependencies using _npm install_. Once completed, you will be ready to run any of the Bamazon javascript files using _node bamazonFileOfChoice.js_.
 
 * __For a list of Node applications used in the application see the _Resources_ section below__
+
+## Functionality
+
+### Customer Experience
+
+Upon launch, the _customer_ is greeted with a welcome message, as well as a table containing the items currently in the Bamazon inventory. The _customer_ is asked to input the Item ID of the product they would like to purchase. Once the product has been selected, the _customer_ is then asked to provide a number for the quantity they would like to purchase. Once the _customer_ has finished their inputs, a table appears containing the details of their order - Product Name, Quantity, Price.
+
+* __NOTE__: if the _customer's_ quantity cannot be fulfilled or an invalid ID was provided, a message will appear prompting the _customer_ to try their selection again.
 
 #### Copyright
 
