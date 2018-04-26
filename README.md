@@ -4,27 +4,27 @@ A NodeJS Command-Line Shopping Experience
 
 ## Overview
 
-Bamazon is a command-line NodeJS application that allows interaction for a customer, manager or supervisor. Each user experience is different based on which application is chosen - bamazonCustomer.js, bamazonManager.js or bamazonSupervisor.js.
+Bamazon is a command-line NodeJS application that accepts interaction from a _customer_, _manager_ or _supervisor_. Each user experience is different based on which application is chosen - _bamazonCustomer.js_, _bamazonManager.js_ or _bamazonSupervisor.js._
 
 ## Getting Started
 
-### Bamazon Database
+### Create Bamazon Database
 
 In order to interact with the Bamazon database, one must first execute the __bamazon.sql__ file located in the repository. This file will perform the following tasks (using MySQL commands):
 
-* Drop any existing bamazon database (if one exists)
+* Drop any existing bamazon database (should one exist)
 * Create _bamazon.db_ database
 * Create two tables: __Departments__ and __Products__
 * Populate _Departments_ table with pre-defined department data
 * Populate _Products_ table with pre-defined product data
 
-Connection to the database is establish upon launch of any of the applications. The database server used in the application is MySQL.
+Connection to the database is establish upon launch of any of these applications. Having said that, the database connection is terminate upon exit of any application. The database server used in the application is MySQL.
 
 ### Dependencies
 
 Initialize your folder using _npm init_ and install the dependencies using _npm install_. Once completed, you will be ready to run any of the Bamazon javascript files using _node bamazonFileOfChoice.js_.
 
-* __For a list of Node applications used in the application see the _Resources_ section below__
+* __For a list of Node applications used in the application see the [_Resources_](https://github.com/CourtneyDM/bamazon/blob/master/README.md#resources) section below__
 
 ## Functionality
 
@@ -96,7 +96,7 @@ The _Supervisor Portal_ launches with the following options:
 ![alt text](https://github.com/CourtneyDM/bamazon/blob/master/screenshots/supervisor-02.jpeg?raw=true "Supervisor - View Sales")
 
 
-This options allows the _supervisor_ to see a breakdown of sales by departemnt. The data displayed is based on items that are in the __current inventory__. Some details the  _supervisor_ can see are: Department name and ID, Overhead Cost, sum of the Product Sales and Total Profit.
+This options allows the _supervisor_ to see a breakdown of sales by departemnt. The data displayed is based on items that are in the __current inventory__. Some details the  _supervisor_ can see are: Department Name and ID, Overhead Cost, sum of Product Sales and Total Profit.
 
 #### View Departments
 
@@ -125,15 +125,15 @@ Exits the application
    [NodeJS](https://nodejs.org/en/)
 
 * NodeJS Packages/Dependencies
-   [Chalk](https://www.npmjs.com/package/chalk)
-   [CLI-Table](https://www.npmjs.com/package/cli-table)
-   [Inquirer](https://www.npmjs.com/package/inquirer)
-   [MySQL](https://www.npmjs.com/package/mysql)
+   [Chalk](https://www.npmjs.com/package/chalk)  
+   [CLI-Table](https://www.npmjs.com/package/cli-table)  
+   [Inquirer](https://www.npmjs.com/package/inquirer)  
+   [MySQL](https://www.npmjs.com/package/mysql)  
 
 
 ## Closing Remarks
 
-This was my first attempt at using any of the NodeJS packages extensively, and by doing so it allowed me to better understand how Inquirer works and ways to manipulate user input. Having said that, I am by no means an expert at any of the packages used, but I am always willing to field questions and accept positive feedback (constructive criticism). Until next time - enjoy!
+This was my first attempt at using any of the NodeJS packages extensively, and by doing so it allowed me to better understand how Inquirer works, massage data using MySQL statements and Javascript, as well as creating tables to display nicely to the console. Having said that, I am by no means an expert at any of the packages used, but I am always willing to answer questions as well as accept positive feedback (constructive criticism). Until next time - enjoy!
 
 ---
 
