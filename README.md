@@ -38,7 +38,9 @@ Upon launch, the _customer_ is greeted with a welcome message, as well as a tabl
 
 * __NOTE__: if the _customer's_ quantity cannot be fulfilled or an invalid ID was provided, a message will appear prompting the _customer_ to try their selection again.
 
-### Manager Portal
+---
+
+### Manager Experience
 
 ![alt text](https://github.com/CourtneyDM/bamazon/blob/master/screenshots/manager-03.jpeg?raw=true "Manager - Inventory Views")
 
@@ -80,8 +82,9 @@ The _manager_ has the ability to add new product to the inventory by selecting t
 
 ![alt text](https://github.com/CourtneyDM/bamazon/blob/master/screenshots/manager-07.jpeg?raw=true "Manager - Add Product")
 
+---
 
-### Supervisor Portal
+### Supervisor Experience
 
 ![alt text](https://github.com/CourtneyDM/bamazon/blob/master/screenshots/supervisor-01.jpeg?raw=true "Supervisor - Portal Home")
 
