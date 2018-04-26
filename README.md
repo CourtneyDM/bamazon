@@ -10,13 +10,13 @@ Bamazon is a command-line NodeJS application that allows interaction for a custo
 
 ### Bamazon Database
 
-In order to interact with the Bamazon database, one must first execute the __bamazon.sql__ file located in the repository. This file will (using MySQL commands):
+In order to interact with the Bamazon database, one must first execute the __bamazon.sql__ file located in the repository. This file will perform the following tasks (using MySQL commands):
 
-* Drop any existing bamazon database
+* Drop any existing bamazon database (if one exists)
 * Create _bamazon.db_ database
-* Create two tables: __Departments__ and __Product__
-* Create pre-defined departments
-* Populate inventory with pre-defined products
+* Create two tables: __Departments__ and __Products__
+* Populate _Departments_ table with pre-defined department data
+* Populate _Products_ table with pre-defined product data
 
 Connection to the database is establish upon launch of any of the applications. The database server used in the application is MySQL.
 
@@ -110,6 +110,8 @@ Exits the application
 
 This was my first attempt at using any of the NodeJS packages extensively, and by doing so it allowed me to better understand how Inquirer works and ways to manipulate user input. Having said that, I am by no means an expert at any of the packages used, but I am always willing to field questions and accept positive feedback (constructive criticism). Until next time - enjoy!
 
-#### Copyright
+---
+
+##### Copyright
 
 <p>Courtney Montgomery &copy 2018</p>
