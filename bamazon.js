@@ -329,7 +329,7 @@ function createTable() {
                 chalk.yellow("Price"),
                 chalk.yellow("In-Stock"),
             ],
-            colWidths: [10, 60, 30, 20, 20]
+            colWidths: [10, 40, 35, 10, 10]
         });
         // View Complete Inventory
         if (count === 1 || count === 3) {
@@ -350,7 +350,7 @@ function createTable() {
                     chalk.yellow("Department Name"),
                     chalk.yellow("Overhead Cost"),
                 ],
-                colWidths: [20, 30, 20]
+                colWidths: [20, 40, 20]
             });
             executeQuery(departmentsQuery, table);
         }
