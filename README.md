@@ -4,7 +4,7 @@ A NodeJS Command-Line Shopping Experience
 
 ## Overview
 
-Bamazon is a command-line NodeJS application that accepts interaction from a _customer_, _manager_ or _supervisor_. Each user experience is different based on which application is chosen - _bamazonCustomer.js_, _bamazonManager.js_ or _bamazonSupervisor.js._
+Bamazon is a command-line NodeJS application that accepts interaction from a _customer_, _manager_ or _supervisor_. Each user experience is different based on which application is chosen - _bamazonCustomer.js_, _bamazonManager.js_ or _bamazonSupervisor.js._ The back-end uses MySQL; if you are unfamiliar with setting up or using MySQL, please visit the [_Getting Started with MySQL Documention here.](https://dev.mysql.com/doc/mysql-getting-started/en/)
 
 ## Getting Started
 
