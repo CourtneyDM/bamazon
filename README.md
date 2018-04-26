@@ -124,6 +124,8 @@ The _supervisor_ has the ability to create a new department using this option. T
 
 Exits the application
 
+---
+
 ### Resources
 
 * [NodeJS](https://nodejs.org/en/): a JavaScript runtime built on Chrome's V8 JavaScript engine
