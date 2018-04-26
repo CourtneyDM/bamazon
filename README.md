@@ -10,13 +10,15 @@ Bamazon is a command-line NodeJS application that allows interaction for a custo
 
 ### Bamazon Database
 
-In order to interact with the Bamazon database, one must first execute the __bamazon.sql__ file located in the repository. This file will:
+In order to interact with the Bamazon database, one must first execute the __bamazon.sql__ file located in the repository. This file will (using MySQL commands):
 
 * Drop any existing bamazon database
 * Create _bamazon.db_ database
 * Create two tables: __Departments__ and __Product__
 * Create pre-defined departments
 * Populate inventory with pre-defined products
+
+Connection to the database is establish upon launch of any of the applications. The database server used in the application is MySQL.
 
 ### Dependencies
 
@@ -40,6 +42,7 @@ The _Manager Portal_ provides an opportunity for the _manager_ to perform the fo
 * View Low Inventory (products whose quantity is less than 5)
 * Update Inventory
 * Add New Product
+* Exit
 
 #### View Products for Sale
 
@@ -62,6 +65,34 @@ Here, the _manager_ is able to update the quantity for any item currently in inv
 #### Add New Products
 
 The _manager_ has the ability to add new product to the inventory by selecting this option. The _manager_ will be asked to input the name of the product, select the department the product belongs to (a pre-defined list), how many to add to inventory and the price in U.S. dollars (no currency symbols). Once completed, the table is regenerated with the newly added product and its details.
+
+### Supervisor Portal
+
+The _Supervisor Portal_ launches with the following options:
+
+* View Product Sales by Department
+* View Departments
+* Create New Department
+* Exit
+
+#### View Product Sales by Department
+
+This options allows the _supervisor_ to see a breakdown of sales by departemnt. The data displayed is based on items that are in the __current inventory__. Some details the  _supervisor_ can see are: Department name and ID, Overhead Cost, sum of the Product Sales and Total Profit.
+
+#### View Departments
+
+The _supervisor_ can see each department and their overhead cost from this screen.
+
+#### Create New Department
+
+The _supervisor_ has the ability to create a new department using this option. The required information are:
+
+* Department Name - the name for the new department
+* Overhead Cost - the general cost or expenses to maintain new department
+
+#### Exit
+
+Exits the application
 
 #### Copyright
 
