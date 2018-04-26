@@ -28,6 +28,8 @@ Initialize your folder using _npm init_ and install the dependencies using _npm 
 
 ## Functionality
 
+Below you will find descriptions, along with screenshots, of how this application works.
+
 ### Customer Experience
 
 ![alt text](https://github.com/CourtneyDM/bamazon/blob/master/screenshots/customer-02.jpeg?raw=true "Customer - Purchase Screen")
